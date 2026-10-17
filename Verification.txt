@@ -1,0 +1,30 @@
+Study Planner final verification
+October 16, 2026 — America/Chicago
+
+PASS — Debug app and Android test APK builds.
+PASS — 5 unit tests; 0 failures, errors, or skipped tests.
+PASS — 8 emulator tests; 0 failures, errors, or skipped tests.
+PASS — FinalAcceptanceTest screenshot workflow; OK (1 test).
+PASS — Lint; 0 errors, 7 advisories.
+PASS — All 42 ZIP source entries match the source used for the verified build.
+PASS — ZIP integrity check.
+PASS — Full process force-stop and COLD relaunch retained assignments.
+PASS — Preferences DataStore SHA-256 unchanged across the full restart:
+5686d76d27b527a0a8b7e56389fe656279037b294c872ae577692c2a2d71bcf6
+
+Device: Medium Phone 3 emulator, Android API 37.1.
+Build: JDK 21, Android SDK Platform 35, Gradle 8.12, AGP 8.8.0.
+
+Commands run from the project folder:
+gradlew.bat --offline --no-daemon --console=plain :app:assembleDebug :app:testDebugUnitTest :app:lintDebug :app:assembleDebugAndroidTest
+gradlew.bat --offline --no-daemon --console=plain :app:connectedDebugAndroidTest
+
+Scope: Four activities, fragments, explicit selected-record Intent data, assignment
+editing/validation, recreation, preference defaults, changed and unchanged preference
+persistence, sort/filter effects, priority defaults, and Help navigation.
+
+Screenshot provenance: Original emulator pixels saved by FinalAcceptanceTest and
+the Android SDK after the final build. Records are illustrative test data. Screenshots
+were not generated, retouched, composited, or edited.
+
+Canvas: No submission performed.
