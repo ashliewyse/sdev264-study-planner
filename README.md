@@ -24,7 +24,7 @@ Version 1.0, version code 5. Production application ID is `com.ashliewyse.studyp
 
 ## Verification
 
-Fresh final verification on October 16, 2026 (America/Chicago): successful debug and test APK builds, 5/5 unit tests, 8/8 emulator tests, and 0 lint errors. The final screenshot acceptance workflow also passed separately. Seven lint advisories concern dependency updates, backup configuration, and overdraw; none prevented the build or tests.
+Fresh final verification on October 16, 2026 (America/Chicago): successful debug and test APK builds, 5/5 unit tests, 8/8 emulator tests, and 0 lint errors. The final screenshot acceptance workflow also passed separately. Android Studio synced the exact final source, built and installed it, and launched MainActivity on the emulator. Seven lint advisories concern dependency updates, backup configuration, and overdraw; none prevented the build or tests.
 
 A force-stop followed by a cold launch retained the test records and preference values. The screenshots are original emulator captures from this final build and show illustrative test records, not a report of actual coursework completion. See [Verification.txt](Verification.txt).
 
@@ -47,3 +47,4 @@ Each screenshot is supplied individually in this repository and separately from 
 - [13-Help-Explains-Preferences](13-Help-Explains-Preferences.png)
 - [14-Returned-To-Main](14-Returned-To-Main.png)
 - [15-Main-After-Full-Process-Restart](15-Main-After-Full-Process-Restart.png)
+- [16-Android-Studio-Final-App-Running](16-Android-Studio-Final-App-Running.png)

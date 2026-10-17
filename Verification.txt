@@ -8,6 +8,7 @@ PASS — FinalAcceptanceTest screenshot workflow; OK (1 test).
 PASS — Lint; 0 errors, 7 advisories.
 PASS — All 42 ZIP source entries match the source used for the verified build.
 PASS — ZIP integrity check.
+PASS — Android Studio project sync, debug build/install, and MainActivity launch.
 PASS — Full process force-stop and COLD relaunch retained assignments.
 PASS — Preferences DataStore SHA-256 unchanged across the full restart:
 5686d76d27b527a0a8b7e56389fe656279037b294c872ae577692c2a2d71bcf6
@@ -24,7 +25,8 @@ editing/validation, recreation, preference defaults, changed and unchanged prefe
 persistence, sort/filter effects, priority defaults, and Help navigation.
 
 Screenshot provenance: Original emulator pixels saved by FinalAcceptanceTest and
-the Android SDK after the final build. Records are illustrative test data. Screenshots
+the Android SDK after the final build. Screenshot 16 is an original full-window
+Android Studio capture of the running final project. Records are illustrative test data. Screenshots
 were not generated, retouched, composited, or edited.
 
 Canvas: No submission performed.
